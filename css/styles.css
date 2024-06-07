@@ -820,3 +820,144 @@ img {
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+        @media (max-width: 1158px) {
+            .navigation-list {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .contact {
+                text-align: center;
+            }
+    
+            .work-list,
+            .our-team-list,
+            .our-portfolio {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .work-item,
+            .our-team-item,
+            .portfolio-item {
+                width: 80%;
+            }
+    
+            .social-media-list {
+                justify-content: center;
+            }
+        }
+    
+        @media (max-width: 768px) {
+            .top-site-navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .title-main {
+                font-size: 28px;
+            }
+    
+            .button {
+                width: 100%;
+                max-width: 200px;
+            }
+    
+            .work-list,
+            .our-team-list,
+            .our-portfolio {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .work-item,
+            .our-team-item,
+            .portfolio-item {
+                width: 100%;
+            }
+    
+            .portfolio-img {
+                text-align: center;
+            }
+        }
+    
+        @media (max-width: 320px) {
+            .top-site-navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .title-main {
+                font-size: 22px;
+            }
+    
+            .button {
+                width: 100%;
+                max-width: 150px;
+            }
+    
+            .work-list,
+            .our-team-list,
+            .our-portfolio {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .work-item,
+            .our-team-item,
+            .portfolio-item {
+                width: 100%;
+            }
+    
+            .social-media-list {
+                justify-content: center;
+            }
+    
+            .modal-column {
+                flex-direction: column;
+                align-items: stretch;
+            }
+    
+            .modal-input {
+                width: 100%;
+            }
+    
+            .comment-text {
+                height: 60px;
+            }
+        }
+
+                .hamburger-menu {
+                    display: none;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                }
+        
+                .hamburger-icon {
+                    width: 25px;
+                    height: 2px;
+                    background-color: #333;
+                    position: relative;
+                    display: block;
+                }
+        
+                .hamburger-icon::before,
+                .hamburger-icon::after {
+                    content: '';
+                    width: 25px;
+                    height: 2px;
+                    background-color: #333;
+                    position: absolute;
+                    left: 0;
+                    transition: transform 0.3s ease;
+                }
+        
+                .hamburger-icon::before {
+                    top: -8px;
+                }
+        
+                .hamburger-icon::after {
+                    top: 8px;
+                }
