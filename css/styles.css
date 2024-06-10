@@ -834,7 +834,7 @@ img {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 767px) {
     body{
         width: 320px;
     }
@@ -990,7 +990,8 @@ img {
     }
 
 
-@media (320px < width < 768px){
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    
 body{
     width: 768px;
 }
