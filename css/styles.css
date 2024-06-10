@@ -920,6 +920,10 @@ img {
         flex-direction: column;
     }
 
+    .our-team-list .our-team-item{
+        width: 264px;
+    }
+
     .employee{
         width: 232px;
     }
